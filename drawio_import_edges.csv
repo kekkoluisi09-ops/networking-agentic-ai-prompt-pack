@@ -1,0 +1,9 @@
+Source,Target,Label
+ISP,fw-edge-01,WAN Uplink
+fw-edge-01,sw-core-01,Trunk VLANs 10-70 (Native 60)
+sw-core-01,sw-core-02,Trunk VLANs 20-60
+sw-core-01,wlc-01,Trunk VLANs 10+70
+wlc-01,ap-floor1-01,Wireless Managed
+sw-core-01,nvr-cam-01,Access VLAN 20 (PoE)
+sw-core-01,pbx-voip-01,Access VLAN 30
+sw-core-01,svc-syslog-01,Access VLAN 60

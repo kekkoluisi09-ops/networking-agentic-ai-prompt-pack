@@ -1,0 +1,22 @@
+check_interval: 60
+down_threshold: 3
+up_threshold: 2
+dashboard_port: 8080
+devices:
+  - hostname: fw-edge-01
+    ip: 10.10.60.1
+    criticality: critical
+  - hostname: sw-core-01
+    ip: 10.10.60.10
+    criticality: critical
+  - hostname: sw-core-02
+    ip: 10.10.60.11
+    criticality: critical
+  - hostname: wlc-01
+    ip: 10.10.60.20
+    criticality: standard
+  - hostname: svc-syslog-01
+    ip: 10.10.60.50
+    criticality: standard
+notifications:
+  method: log-only

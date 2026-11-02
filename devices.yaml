@@ -1,0 +1,17 @@
+devices:
+  - hostname: fw-edge-01
+    ip: 10.10.60.1
+    vendor: fortinet
+    port: 22
+  - hostname: sw-core-01
+    ip: 10.10.60.10
+    vendor: d-link
+    port: 22
+  - hostname: sw-core-02
+    ip: 10.10.60.11
+    vendor: d-link
+    port: 22
+  - hostname: wlc-01
+    ip: 10.10.60.20
+    vendor: d-link
+    port: 22
